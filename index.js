@@ -90,7 +90,6 @@ document.addEventListener('DOMContentLoaded', function (e) {
     }
 
 
-
     function changeBrand(el) {
         let price = document.getElementById('price-tag')
         let factory = document.getElementById('factory')
