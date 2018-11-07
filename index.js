@@ -56,6 +56,8 @@ document.addEventListener('DOMContentLoaded', function (e) {
 
 
     // init GSAP controller
+
+    // init GSAP controller
     var controller = new ScrollMagic.Controller({
         globalSceneOptions: {
             triggerHook: 'onLeave'
@@ -74,6 +76,8 @@ document.addEventListener('DOMContentLoaded', function (e) {
         triggerElement: '#two',
     })
     showToothbrush.setClassToggle('#toothbrush', 'display');
+    showToothbrush.on("enter", () => changeBrand("toothbrush"));
+    showToothbrush.on("leave", () => changeBrand("shoe"));
     showToothbrush.addTo(controller)
 
     // hide Shoe
@@ -88,6 +92,8 @@ document.addEventListener('DOMContentLoaded', function (e) {
         triggerElement: '#four',
     })
     showLipstick.setClassToggle('#lipstick', 'display');
+    showLipstick.on("enter", () => changeBrand("lipstick"));
+    showLipstick.on("leave", () => changeBrand("toothbrush"));
     showLipstick.addTo(controller)
 
     // hideToothbrush
@@ -98,6 +104,34 @@ document.addEventListener('DOMContentLoaded', function (e) {
     hideToothBrush.addTo(controller)
 
 
+    function changeBrand(el) {
+        let price = document.getElementById('price-tag')
+        let factory = document.getElementById('factory')
+        let brand = document.getElementById('from-brand')
+
+        switch (el) {
+            case "shoe":
+                price.innerText = "$80"
+                factory.innerText = "These shoes are made in the same factory as:"
+                brand.innerText = "Nike"
+                break;
+            case "toothbrush":
+                price.innerText = "$35"
+                factory.innerText = "This toothbrush is made in the same factory as:"
+                brand.innerText = "Quip"
+                break;
+            case "lipstick":
+                price.innerText = "$20"
+                factory.innerText = "This lipstick is made in the same factory as:"
+                brand.innerText = "La Mer"
+                break;
+            default:
+                price.innerText = "$80"
+                factory.innerText = "These shoes are made in the same factory as:"
+                brand.innerText = "Nike"
+                break;
+        }
+    }
 
 
 

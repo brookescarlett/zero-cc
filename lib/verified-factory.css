@@ -26,12 +26,7 @@
 .verified-factory-section {
     margin-bottom: 75px;
     margin-right: 95px;
-}
-
-.verified-factory-section > div {
-    font-size: 12px;
-    border: 1px solid white;
-    width: 80px;
+    z-index: 300;
 }
 
 #prod-img-2 {
@@ -39,4 +34,10 @@
   height: 411px;
   margin-top: 77px;
   z-index:100
+}
+
+.brand-container {
+    border: 1px solid white;
+    padding: 0px 20px;
+    width: 40px;
 }

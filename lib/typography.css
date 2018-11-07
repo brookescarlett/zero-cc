@@ -51,6 +51,12 @@
     font-size: 13px;
 }
 
+.product-type {
+    font-family: 'Apercu Bold';
+    font-size: 13px;
+    margin-left: 4px;
+}
+
 .faq-main-header {
     color: black;
     font-family: 'Apercu Bold';
