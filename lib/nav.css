@@ -1,19 +1,42 @@
 .nav {
     margin-bottom: 0px;
     padding-left: 60px;
-    z-index: 1000;
+    z-index: 10;
 }
 
 .right-nav {
     margin-right: 60px;
+    z-index: 1000 !important;
 }
+
 
 .first-right-nav {
     margin-right: 60px;
-}
+    z-index: 1000 !important;
+} 
 
 .nav-class {
-    height: 30%;
-    margin-left: 200px;
-    z-index: 1000;
+    transform: translateX(100px);
+    z-index: 1000 !important;
+    position: fixed !important;
+    margin: 20px;
+    height: 75px;
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+
+.nav-class > form {
+    position: fixed;
+    background-color: white;
+}
+
+.nav-class > .email-cap-field { 
+    width: 400px;
+}
+
+.nav-toggle {
+    margin-bottom: 0px;
+    padding-left: 60px;
+    z-index: 10;
+    background-color: white;
 }

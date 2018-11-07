@@ -1,3 +1,7 @@
+form {
+    z-index: 1000;
+}
+
 .email-cap-field {
     width: 305px;
     height: 60px;

@@ -55,32 +55,59 @@ document.addEventListener('DOMContentLoaded', function (e) {
     faq()
 
 
-    // pin email form to navigation
-    // var controller = new ScrollMagic.Controller({
-    //     globalSceneOptions: {
-    //         triggerHook: 'onLeave'
-    //     }
-    // });
+    // init GSAP controller
+    var controller = new ScrollMagic.Controller({
+        globalSceneOptions: {
+            triggerHook: 'onLeave'
+        }
+    });
 
+    // pin email form to nav bar
     var pin = new ScrollMagic.Scene({
         triggerElement: '#test',
     }).setPin('#test', { pushFollowers: false });
     pin.setClassToggle('#test', 'nav-class');
     pin.addTo(controller);
 
+    // show Toothbrush
+    var showToothbrush = new ScrollMagic.Scene({
+        triggerElement: '#two',
+    })
+    showToothbrush.setClassToggle('#toothbrush', 'display');
+    showToothbrush.addTo(controller)
+
+    // hide Shoe
+    var hideShoe = new ScrollMagic.Scene({
+        triggerElement: '#two',
+    })
+    hideShoe.setClassToggle('#shoe', 'hidden');
+    hideShoe.addTo(controller)
+  
+    // show Lipstick
+    var showLipstick = new ScrollMagic.Scene({
+        triggerElement: '#four',
+    })
+    showLipstick.setClassToggle('#lipstick', 'display');
+    showLipstick.addTo(controller)
+
+    // hideToothbrush
+    var hideToothBrush = new ScrollMagic.Scene({
+        triggerElement: '#four',
+    })
+    hideToothBrush.setClassToggle('#toothbrush', 'hidden');
+    hideToothBrush.addTo(controller)
+
+
+
+
 
     //enter timeline 
-    var tl = new TimelineMax();
-    tl.to("#things", 1.5, { opacity: 1 });
-    tl.to("#prices", 1.5, { opacity: 1 });
-    tl.to("#brands", 1.5, { opacity: 1 });
+    // var tl = new TimelineMax();
+    // tl.to("#things", 1.5, { opacity: 1 });
+    // tl.to("#prices", 1.5, { opacity: 1 });
+    // tl.to("#brands", 1.5, { opacity: 1 });
 
 
-    //second page timeline
-    // var secondEnter = new ScrollMagic.Scene({
-    //     triggerElement: '#test',
-    // })
-    //     .setClassToggle('#second-scene', 'nav-class')
-    //     .addTo(controller)
+   
 
 })

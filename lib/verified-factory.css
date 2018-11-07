@@ -3,7 +3,7 @@
     height: 100%;
     transform: skew(-5deg);
     background: var(--main-highlight-color);
-    z-index: 2;
+    z-index: 20;
     margin-left: 1000px;
 }
 
@@ -18,9 +18,9 @@
 .shadow {
     width: 373px;
     height: 26px;
-    background-image: radial-gradient(var(--shadow), var(--shadow), transparent, transparent, transparent);
-    opacity: 0.5;
-    z-index: -200;
+    z-index: 200;
+    margin-top: 530px;
+    margin-right: 160px;
 }
 
 .verified-factory-section {

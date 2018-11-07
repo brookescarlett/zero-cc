@@ -1,6 +1,5 @@
 html,
 body {
-  /* width: 1440px; */
   height: 100%;
   margin: 0;
   overflow-x: hidden;
@@ -8,7 +7,6 @@ body {
 
 section {
   width: 1440px;
-  /* height: 100%; */
   position: relative;
 }
 
@@ -26,6 +24,7 @@ section .inner {
   padding-top: 180px;
   padding-bottom: 135px;
   background-color: var(--dark-grey-panel);
+  z-index: -100;
 }
 
 #three {

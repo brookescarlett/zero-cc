@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Italic</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
@@ -13,15 +13,20 @@
 </head>
 
 <body>
-    
+
+    <!-- fixed orange slash -->
+    <div class="fixed orange-slash"></div>
+    <img src="./assets/images/shoe.png" id="shoe" alt="product-img-shoe" class="fixed right-0 prod-img"/>
+    <img src="./assets/images/toothbrush.png" id="toothbrush" alt="product-img-toothbrush" class="fixed right-0 prod-img" />
+    <img src="./assets/images/lipstick.png" id="lipstick" alt="product-img-lipstick" class="fixed right-0 prod-img" />
+
+    <img src="./assets/images/Bitmap.png" alt="shadow" class="fixed right-0 shadow" id="shoe"/>
+
     <section id="one">
         <!-- nav bar -->
         <div class="nav fixed top-0 left-0 right-0 flex justify-between">
             <object id="svgObject" data="./assets/images/svgs/Italic-logo-black.svg" type="image/svg+xml" height="50" width="50"></object>
-            <div class="flex right-nav">
-                <p class="nav-type caps first-right-nav">careers</p>
-                <p class="nav-type caps">member login</p>
-            </div> 
+           
         </div>
 
         <!-- header text -->
@@ -40,8 +45,11 @@
             </form>
         </div>
 
-        <!-- fixed orange slash -->
-        <div class="fixed orange-slash"></div>  
+       
+        <div class="flex right-nav fixed top-0 right-0">
+            <p class="nav-type caps first-right-nav">careers</p>
+            <p class="nav-type caps">member login</p>
+        </div>
     </section>
 
     <section id="two">
@@ -120,19 +128,7 @@
                     </div>
                 </div>
                 <div class="mid-gutter"></div>
-                <div class="orange-slash"></div>
-                <p class="price fixed bottom-0 right-0"></p>
-                <div>
-                    <img alt="product-img-shoe" class="prod-img">
-                    <div class="shadow"></div>
-                    <div class="verified-factory-section fixed bottom-0 right-0">
-                        <p class="italic-verified body-type white">italic verified factory</p>
-                        <p class="descript body-type white"></p>
-                        <div class="flex justify-center items-center">
-                            <p class="brand body-type caps white"></p>
-                        </div>
-                    </div>
-                </div>
+               
     
             </div>
     
