@@ -19,3 +19,12 @@
     opacity: 0 !important;
     transition: opacity 1s ease-in-out;
 }
+
+#things, #prices, #brands {
+    opacity: 0;
+}
+
+.how-it-works-box {
+    opacity: 0;
+    transform: translateY(200) 
+}

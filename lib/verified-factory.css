@@ -3,7 +3,7 @@
     height: 100%;
     transform: skew(-5deg);
     background: var(--main-highlight-color);
-    z-index: 20;
+    z-index: 10;
     margin-left: 1000px;
 }
 

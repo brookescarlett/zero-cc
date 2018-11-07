@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Italic</title>
-    <meta name="description" content="">
+    <meta name="description" content="code challenge created for zero studios">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./lib/index.css">
@@ -15,36 +15,37 @@
 <body>
 
     <!-- fixed orange slash -->
+    <div class="flex right-nav fixed top-0 right-0">
+        <p class="nav-type caps first-right-nav">careers</p>
+        <p class="nav-type caps">member login</p>
+    </div>
     <div class="fixed orange-slash"></div>
         <img src="./assets/images/shoe.png" id="shoe" alt="product-img-shoe" class="fixed right-0 prod-img"/>
         <img src="./assets/images/Bitmap.png" alt="shadow" class="fixed right-0 shadow" id="shoe"/>
         <img src="./assets/images/toothbrush.png" id="toothbrush" alt="product-img-toothbrush" class="fixed right-0 prod-img-brush" />
         <img src="./assets/images/lipstick.png" id="lipstick" alt="product-img-lipstick" class="fixed right-0 prod-img-lips" />
 
-        <div class="verified-factory-section fixed bottom-0 right-0">
-            <div class="flex">
-                <object data="./assets/images/svgs/verified-ico.svg"></object>
-                <p class="product-type white caps">italic verified factory</p>
-            </div>
-            <div>
-                <p class="body-type white" id="factory">These shoes are made in the same factory as</p>
-            </div>
-            <div class="flex items-center justify-center brand-container">
-                <p class="body-type caps white left" id="from-brand">Nike</p>
-            </div>
-            <p class="price fixed bottom-0 right-0" id="price-tag">$80</p>
+    <div class="verified-factory-section fixed bottom-0 right-0">
+        <div class="flex">
+            <object data="./assets/images/svgs/verified-ico.svg"></object>
+            <p class="product-type white caps">italic verified factory</p>
         </div>
+        <div>
+            <p class="body-type white" id="factory">These shoes are made in the same factory as</p>
+        </div>
+        <div class="flex items-center justify-center brand-container">
+            <p class="body-type caps white left" id="from-brand">Nike</p>
+        </div>
+        <p class="price fixed bottom-0 right-0" id="price-tag">$80</p>
+    </div>
         
 
     <section id="one">
-        <!-- nav bar -->
-            <div class="nav fixed top-0 left-0 right-0 flex justify-between">
-                <object id="logo" data="./assets/images/svgs/Italic-logo-black.svg" type="image/svg+xml" height="50" width="50 class="fixed"></object>
-            
-            </div>
+        <div class="nav fixed top-0 left-0 right-0 flex justify-between">
+            <object id="logo" data="./assets/images/svgs/Italic-logo-black.svg" type="image/svg+xml" height="50" width="50" style="background-color: white" class="fixed"></object>
         
-
-        <!-- header text -->
+        </div>
+        
         <div class="hero-content absolute left-0">
             <p class="main-header-type underline" id="things">Nice Things.</p>
             <p class="main-header-type underline" id="prices">Nice Prices.</p>
@@ -61,10 +62,7 @@
         </div>
 
        
-        <div class="flex right-nav fixed top-0 right-0">
-            <p class="nav-type caps first-right-nav">careers</p>
-            <p class="nav-type caps">member login</p>
-        </div>
+        
     </section>
 
     <section id="two">
@@ -96,11 +94,11 @@
                     </div>
                     <p class="section-three-sub-head">How it works</p>
                     <div class="flex justify center">
-                        <div class="how-it-works-box">
+                        <div class="how-it-works-box" id="box-1">
                             <p class="section-three-headers">2 items per month</p>
                             <p class="body-type">Our factories only produce exclusive limited runs for us, so members can claim up to 2 items per month before it’s going, going, gone. But don’t be glum, there’s always next month.</p>
                         </div>
-                        <div class="how-it-works-box">
+                        <div class="how-it-works-box" id="box-2">
                             <p class="section-three-headers">2 invites per year</p>
                             <p class="body-type">As a member, you get to invite 2 people to join the Italic in-crowd. Warning: this may cause jealousy, acts of bribery and/or unsolicited marriage proposals. Choose wisely.</p>
                         </div>
