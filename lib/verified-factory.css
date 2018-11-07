@@ -15,6 +15,23 @@
     z-index: 200;
 }
 
+.prod-img-brush {
+    margin-top: 150px;
+    margin-right: 150px;
+    width: 443px;
+    height: 416px;
+    z-index: 200;
+
+}
+
+.prod-img-lips {
+    margin-top: 200px;
+    margin-right: 254px;
+    width: 254px; 
+    height: 380px;
+    z-index: 200;
+}
+
 .shadow {
     width: 373px;
     height: 26px;
@@ -29,15 +46,9 @@
     z-index: 300;
 }
 
-#prod-img-2 {
-  width: 443px;
-  height: 411px;
-  margin-top: 77px;
-  z-index:100
-}
+
 
 .brand-container {
     border: 1px solid white;
-    padding: 0px 20px;
-    width: 40px;
+    width: 65px;
 }

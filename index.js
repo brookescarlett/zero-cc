@@ -1,31 +1,5 @@
 document.addEventListener('DOMContentLoaded', function (e) {
 
-    console.log('hi')
-
-    // build a panel
-    // function productText(section) {
-    //     let sect = document.getElementById(section)
-    //     console.log(sect)
-    //     let sectData = data["products"][section]
-    //     console.log(sectData)
-
-    //     let price = sect.getElementsByClassName('price')[0]
-    //     console.log(price)
-    //     price.innerText = sectData.price
-
-    //     let img = sect.getElementsByClassName('prod-img')[0]
-    //     img.src = sectData.img_url
-
-    //     let descript = sect.getElementsByClassName('descript')[0]
-    //     descript.innerText = sectData.descript
-
-    //     let brand = sect.getElementsByClassName('brand')[0]
-    //     brand.innerText = sectData.brand
-    // }
-
-    // productText('one')
-    // productText('three')
-    // productText('five')
 
     function faq() {
         let sect = document.getElementsByClassName('questions-container')[0]
@@ -67,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
     // pin email form to nav bar
     var pin = new ScrollMagic.Scene({
         triggerElement: '#test',
-    }).setPin('#test', { pushFollowers: false });
+    }).setPin('#test');
     pin.setClassToggle('#test', 'nav-class');
     pin.addTo(controller);
 
