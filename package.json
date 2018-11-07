@@ -1,0 +1,28 @@
+{
+  "name": "zero-code-challenge",
+  "version": "1.0.0",
+  "description": "code challenge for zero studios",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --mode=production",
+    "watch": "webpack --progress --watch",
+    "server": "webpack-dev-server --open"
+  },
+  "author": "Brooke Yalof",
+  "license": "MIT",
+  "dependencies": {
+    "in-view": "^0.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.9"
+  }
+}

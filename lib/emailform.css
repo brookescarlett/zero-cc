@@ -1,0 +1,25 @@
+.email-cap-field {
+    width: 305px;
+    height: 60px;
+    border: 1px solid var(--form-grey);
+    border-radius: 5px; 
+    margin-left: 12px;
+}
+
+.email-cap-field::placeholder {
+    padding-left: 20px;
+}
+
+.email-cap-cta-frame {
+    background-color: black;
+    color: white;
+    margin-left: -20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 65px;
+    width: 225px;
+}
+
+.footer-form {
+    margin-bottom: 100px;
+}

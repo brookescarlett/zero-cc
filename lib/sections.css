@@ -1,0 +1,56 @@
+html,
+body {
+  width: 1440px;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+section {
+  width: 1440px;
+  /* height: 100%; */
+  position: relative;
+}
+
+section .inner {
+  margin: 0 auto;
+  max-width: 85%;
+}
+
+#one {
+  min-height: 100% !important; 
+  padding-bottom: 85px;
+}
+
+#two {
+  padding-top: 180px;
+  padding-bottom: 135px;
+  background-color: var(--dark-grey-panel);
+}
+
+#three {
+  padding-top: 180px;
+  padding-bottom: 222px;
+  background-color: var(--section-three-bg);
+}
+
+#four {
+  padding-top: 88px;
+  padding-bottom: 148px;
+  margin-left: 48px;
+}
+
+#five {
+  height: unset;
+  background-color: var(--dark-grey-panel);
+}
+
+
+.faq-header {
+  width: 400px;
+} 
+
+.faq-item-container {
+  border-bottom: 1px solid #D8D8D8;
+  padding: 54px 0px; 
+} 

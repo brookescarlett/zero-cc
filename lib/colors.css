@@ -1,0 +1,21 @@
+:root {
+    --main-highlight-color: #FF5935; 
+    --shadow: #500000;
+    --price: rgba(0, 0, 0, 0.09);
+
+    --med-grey-bg: #D8D8D8;
+    --dark-grey-panel: #2C2C2C;
+
+    --section-three-bg: #F3F3F3;
+
+    --form-grey: #676767;
+}
+
+
+.white {
+    color: white;
+}
+
+.light-grey {
+    color: #777777;
+}

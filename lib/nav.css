@@ -1,0 +1,19 @@
+.nav {
+    margin-bottom: 0px;
+    padding-left: 60px;
+    z-index: 1000;
+}
+
+.right-nav {
+    margin-right: 60px;
+}
+
+.first-right-nav {
+    margin-right: 60px;
+}
+
+.nav-class {
+    height: 30%;
+    margin-left: 200px;
+    z-index: 1000;
+}

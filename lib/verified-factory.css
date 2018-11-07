@@ -1,0 +1,42 @@
+.orange-slash {
+    width: 550px;
+    height: 100%;
+    transform: skew(-5deg);
+    background: var(--main-highlight-color);
+    z-index: 2;
+    margin-left: 1000px;
+}
+
+.prod-img {
+    margin-top: 150px;
+    margin-right: 62px;
+    width: 504px;
+    height: 380px;
+    z-index: 200;
+}
+
+.shadow {
+    width: 373px;
+    height: 26px;
+    background-image: radial-gradient(var(--shadow), var(--shadow), transparent, transparent, transparent);
+    opacity: 0.5;
+    z-index: -200;
+}
+
+.verified-factory-section {
+    margin-bottom: 75px;
+    margin-right: 95px;
+}
+
+.verified-factory-section > div {
+    font-size: 12px;
+    border: 1px solid white;
+    width: 80px;
+}
+
+#prod-img-2 {
+  width: 443px;
+  height: 411px;
+  margin-top: 77px;
+  z-index:100
+}

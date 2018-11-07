@@ -1,0 +1,61 @@
+.main-container {
+    width: 1440px;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.hero-content {
+    margin-left: 48px;
+    margin-top: 164px;
+    z-index: -10;
+}
+
+.line {
+    width: 50px;
+    height: 5px;
+    background-color: var(--main-highlight-color)
+}
+
+.border-gutter {
+    width: 48px;
+    height: 100%;
+}
+
+.height-gutter {
+    height: 60px;
+}
+
+.mini-gutter {
+    height: 26px;
+}
+
+.mid-gutter {
+    width: 285px;
+}
+
+.panel {
+  width: 1083px;
+}
+
+.how-it-works-box {
+  width: 330px;
+  color: black;
+}
+
+.how-it-works-box:first-of-type {
+  margin-right: 106px;
+}
+
+.faq-container {
+    width: 670px;
+}
+
+.footer-content {
+    margin-top: 230px;
+    margin-left: 48px;
+}
+
+.footer {
+    width: 793px;
+    margin-bottom: 25px;
+}
