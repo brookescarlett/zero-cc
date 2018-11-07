@@ -2,8 +2,10 @@
     width: 305px;
     height: 60px;
     border: 1px solid var(--form-grey);
-    border-radius: 5px; 
+    border-radius: 5px 0px 0px 5px;
     margin-left: 12px;
+    line-height: 1;
+    background-color: transparent;
 }
 
 .email-cap-field::placeholder {
@@ -14,12 +16,31 @@
     background-color: black;
     color: white;
     margin-left: -20px;
-    border: 1px solid black;
-    border-radius: 5px;
-    height: 65px;
+    border: 2px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 0px 5px 5px 0px;
+    height: 63.5px;
     width: 225px;
+    line-height: 1;
 }
 
 .footer-form {
     margin-bottom: 100px;
+}
+
+.footer-form > .email-cap-field {
+    width: 305px;
+    height: 60px;
+    border: 1px solid var(--form-light-grey);
+    border-radius: 5px 0px 0px 5px;
+    margin-left: 12px;
+    line-height: 1;
+
+}
+
+.footer-form > .email-cap-cta-frame {
+    background-color: var(--main-highlight-color);
+    border: 2px solid var(--main-highlight-color);
+    border-bottom: 1px solid var(--main-highlight-color);
+
 }

@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function (e) {
     faq()
 
 
-    //pin email form to navigation
+    // pin email form to navigation
     // var controller = new ScrollMagic.Controller({
     //     globalSceneOptions: {
     //         triggerHook: 'onLeave'
