@@ -51,13 +51,3 @@ section .inner {
   height: unset;
   background-color: var(--dark-grey-panel);
 }
-
-
-.faq-header {
-  width: 400px;
-} 
-
-.faq-item-container {
-  border-bottom: 1px solid #D8D8D8;
-  padding: 54px 0px; 
-} 

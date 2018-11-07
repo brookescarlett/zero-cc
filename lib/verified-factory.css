@@ -16,10 +16,10 @@
 }
 
 .prod-img-brush {
-    margin-top: 150px;
-    margin-right: 150px;
-    width: 443px;
-    height: 416px;
+    margin-top: 200px;
+    margin-right: 130px;
+    /* width: 443px; */
+    height: 412px;
     z-index: 200;
 
 }

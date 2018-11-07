@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function (e) {
+    console.log('👋👋👋')
+
 
     function faq() {
         let sect = document.getElementsByClassName('questions-container')[0]
@@ -88,10 +90,15 @@ document.addEventListener('DOMContentLoaded', function (e) {
     }
 
 
+
     function changeBrand(el) {
         let price = document.getElementById('price-tag')
         let factory = document.getElementById('factory')
         let brand = document.getElementById('from-brand')
+
+        TweenMax.fromTo(price, 2, { ease: SlowMo.ease.config(0.9, 1, false), opacity: 0 }, { opacity: 1 }).yoyo(true)
+        TweenMax.fromTo(factory, 2, { ease: SlowMo.ease.config(0.9, 1, false), opacity: 0 }, { opacity: 1 }).yoyo(true)
+        TweenMax.fromTo(brand, 2, { ease: SlowMo.ease.config(0.9, 1, false), opacity: 0 }, { opacity: 1 }).yoyo(true)
 
         switch (el) {
             case "shoe":

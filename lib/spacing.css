@@ -50,6 +50,15 @@
     width: 670px;
 }
 
+.faq-header {
+  width: 400px;
+} 
+
+.faq-item-container {
+  border-bottom: 1px solid #D8D8D8;
+  padding: 54px 0px; 
+} 
+
 .footer-content {
     margin-top: 230px;
     margin-left: 48px;
@@ -58,4 +67,8 @@
 .footer {
     width: 793px;
     margin-bottom: 25px;
+}
+
+.footer object#svgObject {
+    margin-right: 6px;
 }
