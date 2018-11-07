@@ -34,12 +34,3 @@
     font-size: 11px;
     transition: all 0.5s ease-in-out;
 }
-
-.brand-container:hover{
-    background-color: white;
-    transition: all 0.5s ease-in-out;
-}
-
-.brand-container p:hover {
-    color: var( --main-highlight-color);
-}
